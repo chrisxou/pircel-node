@@ -1,8 +1,10 @@
 require('dotenv').config();
 const express = require('express');
-const app = express();
 const port = process.env.NODE_PORT || 8001;
+const cors = require('cors');
 
+const app = express();
+app.use(cors()); 
 const housesRoutes = require('./routes/houses');
 
 app.use('/houses', housesRoutes);
