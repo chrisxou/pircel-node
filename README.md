@@ -1,4 +1,4 @@
-# pircel-node House Data API 
+# Pircel - Node server - House Data API 
 
 This project is the backend part of a full-stack application that serves house data to a React.js (Next.js) frontend. The Node.js/Express server provides REST API endpoints to retrieve house information, including an endpoint to filter houses by name. 
 
