@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "95aae8db-66bc-48a7-af4a-d5b3b1734336",
+		"name": "Pircel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21959598"
+	},
+	"item": [
+		{
+			"name": "Houses node",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local_url}}/houses?name=gr",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"houses"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "gr"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Houses heroku",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
