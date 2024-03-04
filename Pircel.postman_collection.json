@@ -33,7 +33,22 @@
 			"name": "Houses heroku",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://pircel-node.onrender.com/houses?name=s",
+					"host": [
+						"https://pircel-node.onrender.com"
+					],
+					"path": [
+						"houses"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "s"
+						}
+					]
+				}
 			},
 			"response": []
 		}
